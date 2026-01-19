@@ -1,0 +1,70 @@
+/* Flowbite AFTER Tailwind */
+/* @import 'flowbite/dist/flowbite.min.css'; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: 220 14% 96%; /* gray-100*/
+    --foreground: 215 28% 17%; /* gray-800 */
+    
+    --destructive: 0 84% 32%;
+    
+    --muted: 142 6% 90%;
+    --muted-foreground: 142 6% 35%;
+    --muted-background: 0 0% 100%; /* white */
+
+    --border: 0 0% 91%;
+
+    --card: 0 0% 98%;
+    --card-border: 0 0% 95%;
+
+    --primary: 142 76% 28%;
+    --primary-border: 142 76% 18%;
+
+    --button-outline: hsl(0deg 0% 0% / 12%);
+
+    --elevate-1: rgba(0, 0, 0, .03);
+    --elevate-2: rgba(0, 0, 0, .08);
+}
+
+.dark {
+    --background: 221 39% 11%; /* gray-950 */
+    --foreground: 220 14% 96%; /* gray-100 */
+    
+    --destructive: 0 84% 32%;
+    
+    --muted: 142 6% 16%;
+    --muted-foreground: 142 6% 70%;
+    --muted-background: 215 28% 17%; /* gray-800 */
+    
+    --border: 0 0% 15%;
+
+    --card: 0 0% 9%;
+    --card-border: 0 0% 11%;
+
+    --primary: 142 76% 26%;
+    --primary-border: 142 76% 37%;
+
+    --button-outline: hsl(0deg 0% 100% / 10.2%);
+
+    --elevate-1: rgba(255, 255, 255, .04);
+    --elevate-2: rgba(255, 255, 255, .09);
+
+}
+
+.divider {
+    font-size: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.divider::before,
+.divider::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: #aeb7b1;
+    margin: 1px;
+}
